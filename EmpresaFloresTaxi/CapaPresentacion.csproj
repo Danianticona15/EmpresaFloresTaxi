@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C-Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Cliente.Designer.cs">
+      <DependentUpon>C-Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C-Conductor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Conductor.Designer.cs">
+      <DependentUpon>C-Conductor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C-Secretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C-Secretaria.Designer.cs">
+      <DependentUpon>C-Secretaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,15 @@
     <Compile Include="Reservacion.Designer.cs">
       <DependentUpon>Reservacion.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="C-Cliente.resx">
+      <DependentUpon>C-Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Conductor.resx">
+      <DependentUpon>C-Conductor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C-Secretaria.resx">
+      <DependentUpon>C-Secretaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
