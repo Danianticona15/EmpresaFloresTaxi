@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EmpresaFloresTaxi
 {
-    public partial class Form1 : Form
+    public partial class Reservacion : Form
     {
-        public Form1()
+        public Reservacion()
         {
             InitializeComponent();
         }

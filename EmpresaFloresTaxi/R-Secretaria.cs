@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EmpresaFloresTaxi
 {
-    public partial class R_Cliente : Form
+    public partial class R_Secretaria : Form
     {
-        public R_Cliente()
+        public R_Secretaria()
         {
             InitializeComponent();
-        }
-
-        private void R_Cliente_Load(object sender, EventArgs e)
-        {
-            CenterToScreen();
         }
     }
 }
