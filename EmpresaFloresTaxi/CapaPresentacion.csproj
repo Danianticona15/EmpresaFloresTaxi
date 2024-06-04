@@ -96,6 +96,12 @@
     <Compile Include="R-Secretaria.Designer.cs">
       <DependentUpon>R-Secretaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="R-TipoServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R-TipoServicio.Designer.cs">
+      <DependentUpon>R-TipoServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reservacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="R-Secretaria.resx">
       <DependentUpon>R-Secretaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R-TipoServicio.resx">
+      <DependentUpon>R-TipoServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reservacion.resx">
       <DependentUpon>Reservacion.cs</DependentUpon>
