@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C-Cliente.cs">
+    <Compile Include="MantenedorCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="C-Cliente.Designer.cs">
-      <DependentUpon>C-Cliente.cs</DependentUpon>
+    <Compile Include="MantenedorCliente.Designer.cs">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="C-Conductor.cs">
       <SubType>Form</SubType>
@@ -108,8 +108,8 @@
     <Compile Include="Reservacion.Designer.cs">
       <DependentUpon>Reservacion.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="C-Cliente.resx">
-      <DependentUpon>C-Cliente.cs</DependentUpon>
+    <EmbeddedResource Include="MantenedorCliente.resx">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="C-Conductor.resx">
       <DependentUpon>C-Conductor.cs</DependentUpon>
