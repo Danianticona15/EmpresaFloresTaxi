@@ -52,11 +52,11 @@
     <Compile Include="MantenedorCliente.Designer.cs">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="C-Conductor.cs">
+    <Compile Include="Mantenedor_Conductor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="C-Conductor.Designer.cs">
-      <DependentUpon>C-Conductor.cs</DependentUpon>
+    <Compile Include="Mantenedor_Conductor.Designer.cs">
+      <DependentUpon>Mantenedor_Conductor.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorSecretaria.cs">
       <SubType>Form</SubType>
@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenedor_Servicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenedor_Servicio.Designer.cs">
+      <DependentUpon>Mantenedor_Servicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -111,8 +117,8 @@
     <EmbeddedResource Include="MantenedorCliente.resx">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="C-Conductor.resx">
-      <DependentUpon>C-Conductor.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenedor_Conductor.resx">
+      <DependentUpon>Mantenedor_Conductor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorSecretaria.resx">
       <DependentUpon>MantenedorSecretaria.cs</DependentUpon>
