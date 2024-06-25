@@ -104,6 +104,7 @@ namespace EmpresaFloresTaxi
         private void ListarServicioComboBox()
         {
             comboBox1.DataSource = logServicio.Instancia.ListarServicioComboBox();
+            int agregar = 1;
             //comboBox1.DisplayMember ="NOMBRE";
             //comboBox1.ValueMember = "ID_SERVICIO";
         }
