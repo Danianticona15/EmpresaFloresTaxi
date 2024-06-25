@@ -42,7 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="datCLIE.cs" />
+    <Compile Include="datConductor.cs" />
+    <Compile Include="datPago.cs" />
+    <Compile Include="datReserva.cs" />
+    <Compile Include="datServicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{ec572d43-79a0-4775-a6d4-74d7645ef649}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

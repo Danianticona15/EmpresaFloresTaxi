@@ -16,7 +16,7 @@ namespace EmpresaFloresTaxi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Reservacion());
+            Application.Run(new MantenedorC());
         }
     }
 }
