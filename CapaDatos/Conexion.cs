@@ -19,8 +19,9 @@ namespace CapaDatos
         public SqlConnection Conectar() {
 
                 SqlConnection cn = new SqlConnection();
-                cn.ConnectionString = "Data Source= BRUNOPC;" +
-                    " Initial Catalog= TAXIFLORES;User= BRUNOSQL;password=root;" +
+                cn.ConnectionString = "Data Source= LAPTOP-IBIP5PD8;" +
+                    " Initial Catalog= TAXIFLORES;" +
+                    //User= BRUNOSQL;password=root;" +
                     " Integrated Security=true";
 
                 return cn;
