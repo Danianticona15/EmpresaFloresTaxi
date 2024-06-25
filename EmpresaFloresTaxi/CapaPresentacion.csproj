@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\OneDrive\Escritorio\archi\TAXIFLOREScs.cs" />
     <Compile Include="MantenedorC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +119,7 @@
     <Compile Include="Reservacion.Designer.cs">
       <DependentUpon>Reservacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="TAXISTA.cs" />
     <EmbeddedResource Include="MantenedorC.resx">
       <DependentUpon>MantenedorC.cs</DependentUpon>
     </EmbeddedResource>

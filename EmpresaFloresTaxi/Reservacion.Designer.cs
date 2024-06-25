@@ -287,7 +287,7 @@
             this.comboBox1.Location = new System.Drawing.Point(177, 362);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 28);
+            this.comboBox1.Size = new System.Drawing.Size(203, 28);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -304,7 +304,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(344, 432);
+            this.label10.Location = new System.Drawing.Point(365, 423);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(157, 20);
@@ -563,7 +563,7 @@
             // 
             // textBox17
             // 
-            this.textBox17.Location = new System.Drawing.Point(510, 428);
+            this.textBox17.Location = new System.Drawing.Point(519, 420);
             this.textBox17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(163, 26);
@@ -619,16 +619,16 @@
             // 
             // txtcostoServicio
             // 
-            this.txtcostoServicio.Location = new System.Drawing.Point(501, 367);
+            this.txtcostoServicio.Location = new System.Drawing.Point(542, 360);
             this.txtcostoServicio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtcostoServicio.Name = "txtcostoServicio";
-            this.txtcostoServicio.Size = new System.Drawing.Size(172, 26);
+            this.txtcostoServicio.Size = new System.Drawing.Size(119, 26);
             this.txtcostoServicio.TabIndex = 36;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(365, 370);
+            this.label22.Location = new System.Drawing.Point(413, 365);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(118, 20);
