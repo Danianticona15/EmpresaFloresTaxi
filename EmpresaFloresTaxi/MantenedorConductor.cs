@@ -56,14 +56,8 @@ namespace EmpresaFloresTaxi
             textBox7.Text = actual.Cells[11].Value.ToString();
             textBox8.Text = actual.Cells[5].Value.ToString();
             textBox9.Text = actual.Cells[10].Value.ToString();
-            textBox11.Text = actual.Cells[8].Value.ToString();
-            textBox12.Text = actual.Cells[0].Value.ToString();
+            
 
-            dateTimePicker1.Text = actual.Cells[9].Value.ToString();
-
-
-            textBox12.Enabled = false;
-            textBox12.Visible = false;
         }
     }
 }

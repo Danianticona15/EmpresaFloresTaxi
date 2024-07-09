@@ -44,14 +44,9 @@ namespace EmpresaFloresTaxi
                 c.DESTINO = textBox9.Text.Trim();
                 c.FECHA = Convert.ToDateTime(dateTimePicker1.Text.Trim());
                 c.MONTO = Convert.ToDouble(txtmonto.Text.Trim());
-                c.ID_CLIENTE = int.Parse(TXTIDCLI.Text.Trim());
-                c.ID_CONDUCTOR = int.Parse(TXTIDCONDUCTOR.Text.Trim());
+                
 
-                c.ID_SERVICIO = int.Parse(TXTIDSERVICIO.Text.Trim());
-
-                c.ID_PAGO = int.Parse(txtidpago.Text.Trim());
-
-                c.HORA = txthoras.Text.Trim()+":"+txtminutos.Text.Trim();
+               
                 logReserva.Instancia.InsertarReserva(c);
             }
             catch (Exception ex)
@@ -59,12 +54,7 @@ namespace EmpresaFloresTaxi
                 MessageBox.Show("ERROR" + ex);
                 throw ex;
             }
-            txtminutos.Text = "";
-            txthoras.Text = "";
-            txtidpago.Text = "";
-            txtidreserva.Text = "";
-            TXTIDCLI.Text = "";
-            TXTIDCONDUCTOR.Text = "";
+            
 
             MessageBox.Show("Registrado correctamente");
             ListarReserva();
@@ -76,18 +66,18 @@ namespace EmpresaFloresTaxi
             txtidreserva.Text = actual.Cells[0].Value.ToString();
             textBox2.Text = actual.Cells[1].Value.ToString();
             textBox4.Text = actual.Cells[2].Value.ToString();
-            TXTIDCLI.Text = actual.Cells[3].Value.ToString();
+            
             textBox7.Text = actual.Cells[4].Value.ToString();
             textBox8.Text = actual.Cells[5].Value.ToString();
-            TXTIDSERVICIO.Text = actual.Cells[6].Value.ToString();
+            
             comboBox1.Text = actual.Cells[7].Value.ToString();
            txtcostoServicio.Text = actual.Cells[8].Value.ToString();
-            txtidpago.Text = actual.Cells[9].Value.ToString();
+           
             COMBOMEDIOPAGO.Text = actual.Cells[10].Value.ToString();
-            TXTIDCONDUCTOR.Text=actual.Cells[11].Value.ToString();
+            
             textBox11.Text = actual.Cells[12].Value.ToString();
             dateTimePicker1.Text = actual.Cells[13].Value.ToString();
-            txthoras.Text = actual.Cells[14].Value.ToString();
+           
             txtmonto.Text = actual.Cells[15].Value.ToString();
 
         }
